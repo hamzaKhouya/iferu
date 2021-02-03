@@ -1,0 +1,11 @@
+RewriteEngine  on
+
+RedirectMatch /en/publisher/.*/([0-9]+) /publisher.php?initial=true&query=$1
+
+RedirectMatch /en/authors/([0-9]+) /author.php?initial=true&query=$1
+RedirectMatch /fr/authors/([0-9]+) /author.php?initial=true&query=$1
+
+RewriteRule ^channel-img/([0-9]+) http://iferu.com/channel_img/$1-.jpg [R=301]
+RedirectMatch /fr/publisher/.*/([0-9]+) /publisher.php?initial=true&query=$1
+
+RedirectMatch /en/channels/.*/([0-9]+) /poc/model_contenu_de_chaine.php?idChaine=$1
