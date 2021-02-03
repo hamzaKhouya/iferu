@@ -539,6 +539,8 @@ require_once "pdo.php";
 			}];
 		</script>
 	<div class="sr-only"><a href="https://www.iferu.com/fr/channels/leadership/1002#main-content" tabindex="-1">Ignorer la navigation</a></div>
+	
+	
 	<header id="header" class="header header--prospect-cta">
 
 	<div class="notifybars">
@@ -547,8 +549,6 @@ require_once "pdo.php";
 	<div class="notifybar__content">
 	<div class="notifybar__icon"><i class="ico-info"></i>
 	</div><div class="notifybar__title">iferu utilise des cookies afin d'améliorer la navigation sur son site Internet. <a href="https://www.iferu.com/fr/cookie-policy">Pour en savoir plus</a>.</div><div class="notifybar__dismiss"><span data-icon=""></span></div></div></div></div></div> 
-	
-
 		<nav class="navigation">
 			
 				<input type="checkbox" id="nav-mobile" class="navigation__mobile-toggle">
@@ -619,15 +619,24 @@ require_once "pdo.php";
 						</div>
 					
 						<div class="navigation__btn-login">
-							<a href="../fr-login.php" class="btn btn-primary" class="nav-link" id="connexion" rel="nofollow">
-								Connexion
-								<i class="ico-login visible-xs"></i>
-								<a href="#" class="btn btn-danger" id="logout" >Logout</a>
+							<a href="./fr-login.php" class="btn btn-primary" class="nav-link" id="connexion" rel="nofollow">
+								
+								<i class="ico-login"></i>
+								<a href="#" class="btn btn-danger" id="logout" ><i class="ico-login"></i></a>
 							  </a>
 						</div>
 					
 				</div>
-				<style>#logout{display:none;}</style>
+				<link rel="stylesheet" type="text/css" href="./include/styles-cb-jsfynwbbuw3w7v3sz8277ce5y5pqc5k.css">
+				 <style>
+				#logout{display:none;}
+				@media only screen and (max-width: 600px) {
+		.btn{padding: 4px 10px;}
+		.nav-img{height:55px;}
+		.top-search__button  {display:none;}
+		.header--prospect-cta .navigation__btn-login {display:inline;
+  }}
+				</style> 
 				
 			
 		</nav>
@@ -1359,10 +1368,10 @@ require_once "pdo.php";
 <div id="fb-root"></div>
 <style>#logout{display:none;}</style>
 <link rel="stylesheet" type="text/css" href="../fr-enterprise-solutions_files/styles-cb-32xz01rs480m3etnbbvy59fpsag2xav.css">
-<style>.header{margin-bottom:0px;}
+ <style>.header{margin-bottom:0px;}
 @media (min-width: 768px){
 .navigation__search {height: 60.33px;}}
-</style>
+</style> 
 
 
 <script>  

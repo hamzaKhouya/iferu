@@ -2,7 +2,13 @@
 
 			 
 			
-<header id="header" class="header header--prospect-cta"><div class="notifybars"><div id="notification_8"><div class="notifybar notifybar--note"><div class="notifybar__content"><div class="notifybar__icon"><i class="ico-info"></i></div><div class="notifybar__title">iferu utilise des cookies afin d'améliorer la navigation sur son site Internet. <a href="https://www.iferu.com/fr/cookie-policy">Pour en savoir plus</a>.</div><div class="notifybar__dismiss"><span data-icon=""></span></div></div></div></div></div> 
+<header id="header" class="header header--prospect-cta">
+	<div class="notifybars"><div id="notification_8">
+		<div class="notifybar notifybar--note">
+			<div class="notifybar__content">
+				<div class="notifybar__icon"><i class="ico-info"></i></div>
+				<div class="notifybar__title">iferu utilise des cookies afin d'améliorer la navigation sur son site Internet. <a href="https://www.iferu.com/fr/cookie-policy">Pour en savoir plus</a>.</div>
+					<div class="notifybar__dismiss"><span data-icon=""></span></div></div></div></div></div> 
 		<nav class="navigation">
 			
 				<input type="checkbox" id="nav-mobile" class="navigation__mobile-toggle">
