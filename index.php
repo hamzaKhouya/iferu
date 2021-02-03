@@ -8839,7 +8839,6 @@ livres de non-fiction</h1>
     $('.slick-track').slick({
       arrows: true,
   slidesToShow: 16,
-  autoplay: true,
   autoplaySpeed : 300,
   slidesToScroll: 1,
   nextArrow : $('.slick-next'),

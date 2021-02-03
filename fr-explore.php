@@ -328,8 +328,7 @@ if(isset($_SESSION["username"])){
                     ]}" role="toolbar">
 
 
-                    <button type="button" data-role="none" class="slick-prev slick-arrow slick-disabled" aria-label="Previous" role="button" aria-disabled="true"
-                     style="float: left; background:grey;">Previous</button> 
+                    <button type="button" data-role="none" class="slick-prev slick-prev-tendance slick-arrow slick-disabled" aria-label="Previous" role="button" aria-disabled="true" style="float: left; background:grey;">Previous</button> 
                     
              <div aria-live="polite" class="slick-list draggable">
                    <div class="slick-track tendance" role="listbox" style="opacity: 1; width: 4275px; transform: translate3d(0px, 0px, 0px);">
@@ -564,7 +563,7 @@ if(isset($_SESSION["username"])){
                                       </div> 
                                       </div>
                                 </div>
-                                  <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="float: right; background: grey;" aria-disabled="false">Next</button>
+                                  <button type="button" data-role="none" class="slick-next slick-next-tendance slick-arrow" aria-label="Next" role="button" style="float: right; background: grey;" aria-disabled="false">Next</button>
 
 
                     <!-- <ul class="slick-dots" style="" role="tablist">
@@ -647,7 +646,7 @@ if(isset($_SESSION["username"])){
 			&quot;slidesToScroll&quot;: 2
 			}
 		}
-	]}"><button type="button" data-role="none" class="slick-prev slick-arrow slick-disabled" 
+	]}"><button type="button" data-role="none" class="slick-prev slick-prev-populaire slick-arrow slick-disabled" 
   aria-label="Previous" role="button" aria-disabled="true" style="margin-top:20px; background:grey;">Previous</button>
 	
 		<div aria-live="polite" class="slick-list draggable">
@@ -2302,7 +2301,7 @@ if(isset($_SESSION["username"])){
 	
 		
 	
-<button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="float: right; background:grey;" aria-disabled="false">Next</button>
+<button type="button" data-role="none" class="slick-next slick-next-populaire slick-arrow" aria-label="Next" role="button" style="" aria-disabled="false">Next</button>
 </div>
 	</div></div>
 			    </div>
@@ -9695,8 +9694,8 @@ document.createElement("script");d.async=!0;d.src=("https:"===document.location.
   autoplay: false,
   swipe:true,
   slidesToScroll: 1,
-  nextArrow : $('.slick-next'),
-  prevArrow : $('.slick-prev'),
+  nextArrow : $('.slick-next-tendance'),
+  prevArrow : $('.slick-prev-tendance'),
   });
 
   $('.populaire').slick({
@@ -9704,8 +9703,8 @@ document.createElement("script");d.async=!0;d.src=("https:"===document.location.
   slidesToShow: 20,
   slidesToScroll: 1,
   swipeLeft: true,
-  nextArrow : $('.slick-next'),
-  prevArrow : $('.slick-prev'),
+  nextArrow : $('.slick-next-populaire'),
+  prevArrow : $('.slick-prev-populaire'),
   });
 </script>
 
